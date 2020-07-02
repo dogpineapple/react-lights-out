@@ -99,8 +99,9 @@ function Board({ nrows = 3, ncols = 3, chanceLightStartsOn = 0.5 }) {
   // make table board
   // TODO
   return (
-    <div className="Board">
-      <table>
+    <div className="Board-container">
+      <div className="Board-title">LIGHTS OFFFFF</div>
+      <table className="Board">
         <tbody>
           {board.map((row, yIdx) => {
             return <tr>{row.map((cell, xIdx) => {

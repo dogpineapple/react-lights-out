@@ -2,9 +2,11 @@
   height: 100px;
   width: 100px;
   background-color: darkgray;
+  border: 2px lightblue solid;
   cursor: pointer;
 }
 
 .Cell-lit {
+  border: 2px lightblue solid;
   background-color: white;
 }
